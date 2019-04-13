@@ -1,0 +1,104 @@
+body
+{
+	background-color: rgba(50,50,200,0.6);
+}
+
+.clock-holder
+{
+	width:500px;
+	height:500px;
+	position:relative;
+	
+}
+
+.clock-holder .outer-ring
+{
+	position:absolute;
+	width:400px;
+	height:400px;
+	background-color: #ffffff;
+	left:50px;
+	top:50px;
+	-webkit-border-radius:200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}	
+
+.clock-holder .outer-ring .inner-ring
+{
+	position: absolute;
+	width:380px;
+	height:380px;
+	left:9px;
+	top:10px;
+	-webkit-border-radius:190px;
+  	-moz-border-radius: 190px;
+  	border-radius: 190px;
+	background-color: rgba(50,50,200,0.6);
+}
+	
+
+#hours
+{
+	position: absolute;
+	width:185px;
+	height:10px;
+	top:190px;
+	background-color: black;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	transform-origin: right;
+	transform: rotate(90deg); 
+
+}
+#seconds
+{
+	position: absolute;
+	width:185px;
+	height:3px;
+	top:190px;
+	background-color: black;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	transform-origin: right; 
+	transform: rotate(90deg);
+
+}
+#minutes
+{
+	position: absolute;
+	width:185px;
+	height:5px;
+	top:190px;
+	background-color: black;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	transform-origin:right; 
+	transform: rotate(90deg);
+	
+
+}
+
+#dclock
+{
+	left:200px;
+	position: absolute;
+	font-size:30px;
+}
+#day
+{
+	left:200px;
+	position: absolute;
+	font-size: 30px;
+	top:540px;
+}
+#time
+{
+	left:200px;
+	position: absolute;
+	font-size: 30px;
+	top:440px;
+}

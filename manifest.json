@@ -1,0 +1,10 @@
+{
+	"name":"Browser Clock",
+	"description":"Gives You a Clock to Your Browser",
+	"manifest_version":2,
+	"version":"1.0",
+	"chrome_url_overrides":
+							{
+								"newtab":"./file.html"
+							}
+}
