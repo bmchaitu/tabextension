@@ -66,6 +66,8 @@ time.setAttribute("style","top:480px;font-weight:bold")
 		case 6:day.innerHTML='Saturday';
 			   day.setAttribute("style","font-weight:bold");
 			   break;
+		case 0:day.innerHTML='Sunday';
+			   day.setAttribute("style","font-weight:bold");
 	}
 	
 	
